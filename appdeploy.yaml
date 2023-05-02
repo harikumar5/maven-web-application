@@ -23,7 +23,7 @@
         daemon_reload: yes
         enabled: yes
     - name: Pause for 1 Minute and continue with play
-      pause:
+      pause:             
         minutes: 1
     - name: Confirm that 200 OK response is returned
       uri:
