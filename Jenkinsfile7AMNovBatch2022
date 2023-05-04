@@ -41,11 +41,7 @@ currentBuild.result = "FAILURE"
 finally{
 sendSlackNotifications(currentBuild.result)
 }
-  
-
-
-
-}
+  }
 
 
 
